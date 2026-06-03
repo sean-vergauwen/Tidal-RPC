@@ -17,7 +17,7 @@ from typing import Optional
 import psutil
 import tidalapi
 from pypresence import Presence
-from pypresence.types import ActivityType
+from pypresence.types import ActivityType, StatusDisplayType
 
 # --- Paths (works whether run as a script or a frozen PyInstaller exe) ---
 if getattr(sys, "frozen", False):
@@ -148,6 +148,7 @@ def show_track(rpc: Presence, session: tidalapi.Session, song: str, artist: str,
 
     rpc.update(
         activity_type=ActivityType.LISTENING,
+        status_display_type=StatusDisplayType.DETAILS,
         details=song,
         state=f"by {artist}",
         large_image=album_art,
