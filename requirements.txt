@@ -1,2 +1,3 @@
 psutil
+pypresence>=4.6
 tidalapi
