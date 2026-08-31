@@ -15,6 +15,10 @@ by <Artist>
 ▓▓▓▓▓░░░░░  1:23 / 3:45
 ```
 
+## PSA
+
+I will not maintain this project anymore, fork it or clone it if you want to make any modifications, thank you.
+
 ## Two ways to run it
 
 ### A) Standalone Windows app (recommended)
